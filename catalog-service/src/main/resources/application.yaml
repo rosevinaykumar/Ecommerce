@@ -1,0 +1,7 @@
+# To server this service need to be connected - Configuration
+spring:
+  application:
+    name: catalog-service
+  config:
+    import: "optional:configserver:http://localhost:2222"
+#   Optional- if the config server is not available then still the application run, it wont stop

@@ -1,0 +1,7 @@
+#the config server port is 5555 & by default the entire configuration server details must be get from the github link
+# Its native application. It will look up the github for the information
+server:
+  port: 2222
+spring:
+  profiles:
+    active: native
